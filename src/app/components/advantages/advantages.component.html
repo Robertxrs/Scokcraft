@@ -1,0 +1,12 @@
+<article class="vantagens-bg">
+  <div class="vantagens container">
+    <h2 class="font-1-xxl cor-0">vantagens<span class="cor-p1">.</span></h2>
+    <ul>
+      <li *ngFor="let ic of advantagesIcon">
+        <img [src]="ic.img" alt="{{ic.title}}">
+        <h3 class="font-1-l cor-0">{{ic.title}}</h3>
+        <p class="font-2-s cor-5">{{ic.description}}</p>
+      </li>
+    </ul>
+  </div>
+</article>

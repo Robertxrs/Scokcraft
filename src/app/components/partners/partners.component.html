@@ -1,0 +1,9 @@
+<section class="parceiros" aria-label="Nossos Parceiros">
+  <h2 class="container font-1-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
+
+  <ul>
+    <li *ngFor="let partner of partnerImg">
+      <img [src]="partner.imgSrc" [width]="partner.width" [height]="partner.height" [title]="partner.title">
+    </li>
+  </ul>
+</section>

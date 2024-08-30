@@ -1,0 +1,11 @@
+<section class="depoimento" aria-label="Depoimento">
+  <div>
+    <img [src]="testimonialInfo.imgSrc" [width]="testimonialInfo.width" [height]="testimonialInfo.height" [alt]="testimonialInfo.alt">
+  </div>
+  <div class="depoimento-conteudo">
+    <blockquote class="font-1-xl cor-p5">
+      <p>{{testimonialInfo.description}}</p>
+    </blockquote>
+    <span class="font-1-m-b cor-p4">{{testimonialInfo.name}}</span>
+  </div>
+</section>

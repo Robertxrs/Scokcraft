@@ -1,0 +1,24 @@
+<article class="lojas container">
+  <h2 class="font-1-xxl">lojas locais<span class="cor-p1">.</span></h2>
+
+  <ng-container *ngFor="let st of store">
+    <div class="lojas-item">
+      <img [src]="st.img" [alt]="st.name">
+      <div class="lojas-conteudo">
+        <h3 class="font-1-xl">{{st.state}}</h3>
+        <div class="lojas-dados font-2-s cor-8">
+          <p>{{st.address}}</p>
+          <p>{{st.state}} - {{st.acronym}}</p>
+        </div>
+        <ng-container *ngFor="let data of st.storeData">
+          <div class="lojas-dados font-2-s cor-8">
+            <a [href]="data.href">{{data.text}}</a>
+          </div>
+        </ng-container>
+        <p class="lojas-tempo font-1-s">
+          <img [src]="st.icon.src" [alt]="st.icon.alt">{{st.icon.text}}
+        </p>
+      </div>
+    </div>
+  </ng-container>
+</article>
