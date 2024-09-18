@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-bike-details',
-  templateUrl: './bike-details.component.html',
-  styleUrls: ['./bike-details.component.css'],
+  selector: 'app-scooter-details',
+  templateUrl: './scooter-details.component.html',
+  styleUrls: ['./scooter-details.component.css']
 })
-export class BikeDetailsComponent implements OnInit {
+export class ScooterDetailsComponent implements OnInit {
+
   id: string = '';
   bike: any = null;
 
@@ -20,9 +21,9 @@ export class BikeDetailsComponent implements OnInit {
   bikes: any = [
     {
       id: '1',
-      price: '2499',
+      price: '6499',
       title: 'Magic Might',
-      description: 'A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
+      description: 'A Magic Might é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
       iconDeliver:'../../../../assets/img/icones/entrega.svg',
       iconStock:'../../../../assets/img/icones/estoque.svg',
       deliver: '5',
@@ -37,7 +38,7 @@ export class BikeDetailsComponent implements OnInit {
         },
         {
           icon: 'speed',
-          title: '45km/h',
+          title: '120km/h',
           description: 'A mais rápida bicicleta elétrica disponível hoje no mercado.',
         },
         {
@@ -60,16 +61,16 @@ export class BikeDetailsComponent implements OnInit {
         wheel: '25',
       },
       images: [
-        '../../../../assets/img/bicicleta/magic.jpg',
-        '../../../../assets/img/bicicleta/nebula.jpg',
-        '../../../../assets/img/bicicleta/nimbus.jpg',
+        '../../../../assets/img/scooter/magic.jpg',
+        '../../../../assets/img/scooter/nebula.jpg',
+        '../../../../assets/img/scooter/nimbus.jpeg',
       ],
     },
     {
       id: '2',
-      price: '3999',
+      price: '7999',
       title: 'Nebula Cosmic',
-      description: 'A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
+      description: 'A Nebula Cosmic é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
       deliver: '3',
       stock: '35',
       info: [
@@ -80,7 +81,7 @@ export class BikeDetailsComponent implements OnInit {
         },
         {
           icon: 'speed',
-          title: '45km/h',
+          title: '140km/h',
           description: 'A mais rápida bicicleta elétrica disponível hoje no mercado.',
         },
         {
@@ -104,16 +105,16 @@ export class BikeDetailsComponent implements OnInit {
       },
       images: [
 
-        '../../../../assets/img/bicicleta/magic.jpg',
-        '../../../../assets/img/bicicleta/nebula.jpg',
-        '../../../../assets/img/bicicleta/nimbus.jpg',
+        '../../../../assets/img/scooter/nebula.jpg',
+        '../../../../assets/img/scooter/magic.jpg',
+        '../../../../assets/img/scooter/nimbus.jpeg',
       ],
     },
     {
       id: '3',
       price: '4999',
       title: 'Nimbus Stark',
-      description: 'A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
+      description: 'A Nimbus Stark é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
       deliver: '5',
       stock: '5',
       info: [
@@ -124,7 +125,7 @@ export class BikeDetailsComponent implements OnInit {
         },
         {
           icon: 'speed',
-          title: '60km/h',
+          title: '100km/h',
           description: 'A mais rápida bicicleta elétrica disponível hoje no mercado.',
         },
         {
@@ -147,9 +148,9 @@ export class BikeDetailsComponent implements OnInit {
         wheel: '26',
       },
       images: [
-        '../../../../assets/img/bicicleta/magic.jpg',
-        '../../../../assets/img/bicicleta/nebula.jpg',
-        '../../../../assets/img/bicicleta/nimbus.jpg',
+        '../../../../assets/img/scooter/nimbus.jpeg',
+        '../../../../assets/img/scooter/magic.jpg',
+        '../../../../assets/img/scooter/nebula.jpg',
       ],
     },
   ];

@@ -9,7 +9,7 @@ export class BudgetComponent implements OnInit {
   budget: any = {
     title: 'solicite um orçamento',
     subtitle: 'Cotações no seu email',
-    titleProduct: 'Bikcraft ou Seguro?',
+    titleProduct: 'Scooter ou Seguro?',
   };
 
   type: any = {
@@ -17,10 +17,10 @@ export class BudgetComponent implements OnInit {
       {
         type: 'radio',
         name: 'tipo',
-        value: 'bikcraft',
+        value: 'scooter',
         id: 'bikcraft',
         for: 'bikcraft',
-        text: 'Bikcraft',
+        text: 'Scooter',
       },
       {
         type: 'radio',
@@ -54,7 +54,7 @@ export class BudgetComponent implements OnInit {
           {
             imgSrc: '../../../assets/img/icones/velocidade.svg',
             alt: 'Icone de Velocidade',
-            text: '50 km/h',
+            text: '100 km/h',
           },
           {
             imgSrc: '../../../assets/img/icones/rastreador.svg',
@@ -62,8 +62,8 @@ export class BudgetComponent implements OnInit {
             text: 'Rastreador',
           },
         ],
-        img: '../../../assets/img/bicicletas/nimbus.jpg',
-        alt: 'Bicicleta preta',
+        img: '../../../assets/img/scooter/nimbus.jpeg',
+        alt: 'Scooter vermelha',
       },
       {
         type: 'radio',
@@ -72,7 +72,7 @@ export class BudgetComponent implements OnInit {
         id: 'magic',
         for: 'magic',
         nameProd: 'Magic Might',
-        price: '2499',
+        price: '6499',
         icon: [
           {
             imgSrc: '../../../assets/img/icones/eletrica.svg',
@@ -87,7 +87,7 @@ export class BudgetComponent implements OnInit {
           {
             imgSrc: '../../../assets/img/icones/velocidade.svg',
             alt: 'Icone de Velocidade',
-            text: '45 km/h',
+            text: '120 km/h',
           },
           {
             imgSrc: '../../../assets/img/icones/rastreador.svg',
@@ -95,8 +95,8 @@ export class BudgetComponent implements OnInit {
             text: 'Rastreador',
           },
         ],
-        img: '../../../assets/img/bicicletas/magic.jpg',
-        alt: 'Bicicleta preta',
+        img: '../../../assets/img/scooter/magic.jpg',
+        alt: 'Scooter amarela',
       },
       {
         type: 'radio',
@@ -105,7 +105,7 @@ export class BudgetComponent implements OnInit {
         id: 'nebula',
         for: 'nebula',
         nameProd: 'Nebula Cosmic',
-        price: '3999',
+        price: '7999',
         icon: [
           {
             imgSrc: '../../../assets/img/icones/eletrica.svg',
@@ -120,7 +120,7 @@ export class BudgetComponent implements OnInit {
           {
             imgSrc: '../../../assets/img/icones/velocidade.svg',
             alt: 'Icone de Velocidade',
-            text: '40 km/h',
+            text: '140 km/h',
           },
           {
             imgSrc: '../../../assets/img/icones/rastreador.svg',
@@ -128,8 +128,8 @@ export class BudgetComponent implements OnInit {
             text: 'Rastreador',
           },
         ],
-        img: '../../../assets/img/bicicletas/nebula.jpg',
-        alt: 'Bicicleta branca',
+        img: '../../../assets/img/scooter/nebula.jpg',
+        alt: 'Scooter preta',
       },
     ],
     choicePlan: [

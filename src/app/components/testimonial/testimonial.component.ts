@@ -8,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class TestimonialComponent implements OnInit {
 
   testimonialInfo: any = {
-    imgSrc:'../../../assets/img/fotos/depoimento.jpg',
-    description:'Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.',
-    name:'Ana Júlia',
+    imgSrc:'../../../assets/img/fotos/depoimento.jpeg',
+    description:'Dirigir sempre foi a minha paixão, o que o pessoal da Scokcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.',
+    name:'Carlos Eduardo',
     width:'1560',
     height:'1360',
-    alt:'Pessoa pedalando uma bicicleta Bikcraft',
+    alt:'Scooter preta',
   }
 
   constructor() { }

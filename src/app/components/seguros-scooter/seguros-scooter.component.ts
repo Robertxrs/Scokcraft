@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-seguro-bike',
-  templateUrl: './seguro-bike.component.html',
-  styleUrls: ['./seguro-bike.component.css']
+  selector: 'app-seguros-scooter',
+  templateUrl: './seguros-scooter.component.html',
+  styleUrls: ['./seguros-scooter.component.css']
 })
-export class SeguroBikeComponent implements OnInit {
+export class SegurosScooterComponent implements OnInit {
 
-  seguroBike: any = {
+  seguroScooter: any = {
     imgSrc:'../../../../assets/img/fotos/seguros.jpg',
-    altSrc:'Pessoa parada em cima de uma bicicleta.',
-    title:'Pedale mais tranquilo com o nosso',
+    altSrc:'Pessoa no scooter eletrico.',
+    title:'Dirija mais tranquilo com o nosso',
     description:'Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite diversos benefícios.',
     button:'Conheça Mais'
   };

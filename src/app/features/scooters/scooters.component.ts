@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 interface obj {
   path: string,
   imgSrc: string,
@@ -12,21 +13,21 @@ interface obj {
   listIcons:any
 }
 @Component({
-  selector: 'app-bicicletas',
-  templateUrl: './bicicletas.component.html',
-  styleUrls: ['./bicicletas.component.css'],
+  selector: 'app-scooters',
+  templateUrl: './scooters.component.html',
+  styleUrls: ['./scooters.component.css']
 })
-export class BicicletasComponent implements OnInit {
+export class ScootersComponent implements OnInit {
 
-  bikes: obj[] = [
+  scooter: obj[] = [
     {
-      path: '/bike/3',
-      imgSrc: '../../../assets/img/bicicletas/nimbus.jpg',
-      altSrc: 'Bicicleta preta',
+      path: '/scooter/3',
+      imgSrc: '../../../assets/img/scooter/nimbus.jpeg',
+      altSrc: 'scooter vermelha',
       price: '4999',
       title: 'Nimbus Stark',
       description:
-        'A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
+        'A Nimbus Stark é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
       button: 'Mais Sobre',
       listIcons: [
         {
@@ -42,7 +43,7 @@ export class BicicletasComponent implements OnInit {
         {
           icon: '../../../assets/img/icones/velocidade.svg',
           alt: 'Icone de velocidade',
-          subtitle: '60 km/h',
+          subtitle: '100 km/h',
         },
         {
           icon: '../../../assets/img/icones/rastreador.svg',
@@ -52,14 +53,14 @@ export class BicicletasComponent implements OnInit {
       ],
     },
     {
-      path: '/bike/1',
-      imgSrc: '../../../assets/img/bicicletas/magic.jpg',
-      altSrc: 'Bicicleta preta',
-      price: '2499',
+      path: '/scooter/1',
+      imgSrc: '../../../assets/img/scooter/magic.jpg',
+      altSrc: 'Scooter amarela',
+      price: '6499',
       title: 'Magic Might',
-      class: 'bicicletas-bg magic-might',
+      class: 'scooters-bg magic-might',
       description:
-        'A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
+        'A Magic Might é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
       button: 'Mais Sobre',
       listIcons: [
         {
@@ -75,7 +76,7 @@ export class BicicletasComponent implements OnInit {
         {
           icon: '../../../assets/img/icones/velocidade.svg',
           alt: 'Icone de velocidade',
-          subtitle: '45 km/h',
+          subtitle: '120 km/h',
         },
         {
           icon: '../../../assets/img/icones/rastreador.svg',
@@ -85,13 +86,13 @@ export class BicicletasComponent implements OnInit {
       ],
     },
     {
-      path: '/bike/2',
-      imgSrc: '../../../assets/img/bicicletas/nebula.jpg',
+      path: '/scooter/2',
+      imgSrc: '../../../assets/img/scooter/nebula.jpg',
       altSrc: 'Bicicleta preta',
-      price: '3999',
+      price: '7999',
       title: 'Nebula Cosmic',
       description:
-        'A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
+        'A Nebula Cosmic é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
       button: 'Mais Sobre',
       listIcons: [
         {
@@ -118,8 +119,9 @@ export class BicicletasComponent implements OnInit {
     },
   ];
 
+  constructor() { }
 
-  constructor() {}
+  ngOnInit(): void {
+  }
 
-  ngOnInit(): void {}
 }

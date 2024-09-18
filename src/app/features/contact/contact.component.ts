@@ -23,13 +23,13 @@ export class ContactComponent implements OnInit {
     city: 'São Paulo - SP',
     contactAddress: [
       {
-        ref: 'mailto:contato@bikcraft.com',
-        text: 'contato@bikcraft.com',
+        ref: 'mailto:contato@scokcraft.com',
+        text: 'contato@scokcraft.com',
         class:'first'
       },
       {
-        ref: 'mailto:assistencia@bikcraft.com',
-        text: 'assistencia@bikcraft.com',
+        ref: 'mailto:assistencia@scokcraft.com',
+        text: 'assistencia@scokcraft.com',
         class:'second'
       },
       {

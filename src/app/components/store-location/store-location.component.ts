@@ -14,8 +14,8 @@ export class StoreLocationComponent implements OnInit {
     acronym:'RJ',
     address:'Rua Ali Perto, 25',
     storeData:[{
-      href:'mailto:rj@bikcraft.com',
-      text:'rjbikcraft.com',
+      href:'mailto:rj@scokcraft.com',
+      text:'rjscokcraft.com',
     },{
       href:'tel:+552199999999',
       text:'+55 21 99999-9999',
@@ -31,8 +31,8 @@ export class StoreLocationComponent implements OnInit {
     acronym:'SP',
     address:'Rua Ali Perto, 25',
     storeData:[{
-      href:'mailto:sp@bikcraft.com',
-      text:'spbikcraft.com',
+      href:'mailto:sp@scokcraft.com',
+      text:'spscokcraft.com',
     },{
       href:'tel:+551199999999',
       text:'+55 11 99999-9999',

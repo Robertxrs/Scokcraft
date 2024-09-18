@@ -8,8 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   headerList: any = [
     {
-      titulo:'Bicicletas',
-      path:'/bikes'
+      titulo:'Scooter',
+      path:'/scooter'
     },
     {
       titulo:'Seguros',

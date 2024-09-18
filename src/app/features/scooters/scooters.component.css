@@ -1,4 +1,4 @@
-.bicicletas {
+.scooters {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -7,15 +7,15 @@
   background: url("../../../assets/img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
-.bicicletas-imagem {
+.scooters-imagem {
   display: grid;
 }
 
-.bicicletas-imagem img {
+.scooters-imagem img {
   grid-area: 1/1;
 }
 
-.bicicletas-imagem span {
+.scooters-imagem span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
@@ -25,22 +25,22 @@
   border-radius: 4px 0 0 4px;
 }
 
-.bicicletas-conteudo {
+.scooters-conteudo {
   display: grid;
   grid-template-columns: 1fr auto;
   align-content: start;
 }
 
-.bicicletas h2,
-.bicicletas p {
+.scooters h2,
+.scooters p {
   grid-column: 1/-1;
 }
 
-.bicicletas h2 {
+.scooters h2 {
   margin-bottom: 20px;
 }
 
-.bicicletas h2::before {
+.scooters h2::before {
   content: "";
   display: block;
   width: 12px;
@@ -49,25 +49,25 @@
   margin-bottom: 8px;
 }
 
-.bicicletas p {
+.scooters p {
   margin-bottom: 32px;
 }
 
-.bicicletas a {
+.scooters a {
   place-self: end;
 }
 
-.bicicletas li {
+.scooters li {
   display: flex;
   align-items: center;
 }
 
-.bicicletas ul {
+.scooters ul {
   display: grid;
   gap: 16px;
 }
 
-.bicicletas-conteudo img {
+.scooters-conteudo img {
   width: 24px;
   margin-right: 8px;
 }
@@ -75,10 +75,10 @@
 
 
 @media (max-width: 800px) {
-  .bicicletas-bg {
+  .scooters-bg {
     background: var(--cor-11);
   }
-  .bicicletas {
+  .scooters {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 40px;
@@ -87,20 +87,20 @@
 }
 
 @media (max-width: 600px) {
-  .bicicletas-conteudo {
+  .scooters-conteudo {
     grid-template-columns: 1fr;
   }
-  .bicicletas ul {
+  .scooters ul {
     font-size: 1rem;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
   }
-  .bicicletas a {
+  .scooters a {
     place-self: start;
   }
 }
 
-.bicicletas-bg {
+.scooters-bg {
   background: linear-gradient(to right, var(--cor-0) 0%, var(--cor-11) 0%) !important;
 }
 .magic-might .font-2-m {

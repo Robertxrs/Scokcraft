@@ -28,17 +28,17 @@ export class AdvantagesComponent implements OnInit {
     {
       img: '../../../assets/img/icones/rastreador.svg',
       title: 'Rastreador',
-      description: 'Utilizamos o GPS da sua Bikcraft em conjunto com especialistas em segurança para efetuarmos a recuperação.',
+      description: 'Utilizamos o GPS da sua Scooter em conjunto com especialistas em segurança para efetuarmos a recuperação.',
     },
     {
       img: '../../../assets/img/icones/seguro.svg',
       title: 'Segurança',
-      description: 'Com o seguro Bikcraft você pode ficar tranquilo em saber que o seu dinheiro não será perdido em casos de roubo.',
+      description: 'Com o seguro Scooter você pode ficar tranquilo em saber que o seu dinheiro não será perdido em casos de roubo.',
     },
     {
       img: '../../../assets/img/icones/velocidade.svg',
       title: 'Rapidez',
-      description: 'A sua Bikcraft ficará pronta para uso no mesmo dia, caso você traga ela para ser reparada em uma das filiais.',
+      description: 'A sua Scooter ficará pronta para uso no mesmo dia, caso você traga ela para ser reparada em uma das filiais.',
     }
   ];
 

@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   footerContact: any = {
-    logo: '../../../assets/img/bikcraft.svg',
+    logo: '../../../assets/img/scokcraft.svg',
     title: 'Contato',
-    copy:'Bikcraft © Alguns direitos reservados.',
+    copy:'Scokcraft © Alguns direitos reservados.',
     contact: {
       telLink:'tel:+551199999999',
       telephone: '+55 11 9999-9999',
       emailLink:'mailto:contato@bikcraft.com',
-      email: 'contato@bikcraft.com',
+      email: 'contato@scokcraft.com',
     },
     address: {
       addressLink:'https://www.bing.com/maps?q=Sao+paulo&FORM=HDRSC6&cp=-23.683231%7E-46.595678&lvl=10.5',
@@ -41,8 +41,8 @@ export class FooterComponent implements OnInit {
   ];
 
   footerInfo: any = [{
-    path:'/bikes',
-    title:'Bicicletas'
+    path:'/scooters',
+    title:'Scooter'
   },{
     path:'/insurance',
     title:'Seguros'

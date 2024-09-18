@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BikesComponent } from './components/bikes-list/bikes.component';
+import { ScootersListComponent } from './components/scooters-list/scooters-list.component';
 import { SegurosComponent } from './features/seguros/seguros.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { HomeComponent } from './home/home.component';
-import { BicicletasComponent } from './features/bicicletas/bicicletas.component';
 import { BudgetComponent } from './features/budget/budget.component';
-import { BikeDetailsComponent } from './features/bike-details/bike-details.component';;
+import { ScooterDetailsComponent } from './scooter-details/scooter-details.component';
+import { ScootersComponent } from './features/scooters/scooters.component';
 
 const routes: Routes = [
-  { path: 'bikes', component: BicicletasComponent },
+  { path: 'scooter', component: ScootersComponent },
   { path: 'insurance', component: SegurosComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'bike/:id', component: BikeDetailsComponent },
+  { path: 'scooter/:id', component: ScooterDetailsComponent },
   { path: 'budget', component: BudgetComponent},
   { path: '', component: HomeComponent },
 ];
