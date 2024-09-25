@@ -49,7 +49,7 @@ export class ScooterDetailsComponent implements OnInit {
         {
           icon: 'fiber',
           title: 'Fibra de Carbono',
-          description: 'Maior proteção possível para a sua Bikcraft com fibra de carbono.',
+          description: 'Maior proteção possível para a sua Scokcraft com fibra de carbono.',
         },
       ],
       technicalSheet: {
@@ -92,7 +92,7 @@ export class ScooterDetailsComponent implements OnInit {
         {
           icon: 'fiber',
           title: 'Fibra de Carbono',
-          description: 'Maior proteção possível para a sua Bikcraft com fibra de carbono.',
+          description: 'Maior proteção possível para a sua Scokcraft com fibra de carbono.',
         },
       ],
       technicalSheet: {
@@ -136,7 +136,7 @@ export class ScooterDetailsComponent implements OnInit {
         {
           icon: 'fiber',
           title: 'Fibra de Carbono',
-          description: 'Maior proteção possível para a sua Bikcraft com fibra de carbono.',
+          description: 'Maior proteção possível para a sua Scokcraft com fibra de carbono.',
         },
       ],
       technicalSheet: {

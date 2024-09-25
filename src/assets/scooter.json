@@ -1,0 +1,38 @@
+[
+  {
+      "id": "1",
+      "name": "Magic Might",
+      "price": 6499,
+      "description": "A Magic Might é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
+      "details": [
+          "Motor Elétrico",
+          "120 km/h",
+          "Rastreador",
+          "Fibra de Carbono"
+      ]
+  },
+  {
+      "id": "2",
+      "name": "Nebula Cosmic",
+      "price": 7999,
+      "description": "A Nebula Cosmic é a scooter mais avançada com maior velocidade e durabilidade.",
+      "details": [
+          "Motor Elétrico",
+          "140 km/h",
+          "Rastreador",
+          "Fibra de Carbono"
+      ]
+  },
+  {
+      "id": "3",
+      "name": "Nimbus Stark",
+      "price": 4999,
+      "description": "A Nimbus Stark combina velocidade e robustez com tecnologia de ponta.",
+      "details": [
+          "Motor Elétrico",
+          "100 km/h",
+          "Rastreador",
+          "Fibra de Carbono"
+      ]
+  }
+]

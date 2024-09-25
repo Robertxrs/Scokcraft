@@ -6,22 +6,3 @@
     </div>
   </div>
 
-  <ng-container *ngFor="let sco of scooter">
-    <div [class]="sco.class" class="scooters container">
-      <div class="scooters-imagem">
-        <img [src]="sco.imgSrc" [alt]="sco.altSrc">
-        <span class="font-2-m cor-0">R$ {{sco.price}}</span>
-      </div>
-      <div class="scooters-conteudo">
-        <h2 class="font-1-xl">{{sco.title}}</h2>
-        <p class="font-2-s cor-8">{{sco.description}}</p>
-        <ul class="font-1-m cor-8">
-          <li *ngFor="let ic of sco.listIcons">
-            <img [src]="ic.icon" [alt]="ic.alt"> {{ic.subtitle}}
-          </li>
-        </ul>
-        <a class="botao seta" [routerLink]="sco.path">{{sco.button}}</a>
-      </div>
-    </div>
-  </ng-container>
-</main>

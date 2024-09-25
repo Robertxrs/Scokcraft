@@ -12,6 +12,7 @@
 }
 
 .scooters-imagem img {
+  min-width: 560px;
   grid-area: 1/1;
 }
 

@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 
+
 import { HeaderComponent } from './components/header/header.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { TechnologyComponent } from './components/technology/technology.component';
@@ -22,6 +23,7 @@ import { ScootersListComponent } from './components/scooters-list/scooters-list.
 import { ScooterDetailsComponent } from './scooter-details/scooter-details.component';
 import { SegurosScooterComponent } from './components/seguros-scooter/seguros-scooter.component';
 import { ScootersComponent } from './features/scooters/scooters.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,8 @@ import { ScootersComponent } from './features/scooters/scooters.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

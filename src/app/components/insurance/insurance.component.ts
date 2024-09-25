@@ -29,7 +29,7 @@ export class InsuranceComponent implements OnInit {
         'Suporte 24h',
         'Cobertura nacional',
         'Desconto em parceiros',
-        'Acesso ao Clube Bikcraft'
+        'Acesso ao Clube Scokcraft'
       ],
       path: '/budget?tipo=seguro&produto=ouro',
       button: 'Inscreva-se',
