@@ -2,18 +2,19 @@
 
 ## Descrição
 
-Bikcraft é um site de vendas de bicicletas elétricas de alta precisão e qualidade, feito sob medida para os clientes. O projeto foi desenvolvido utilizando Angular.
+Scokcraft é um site de vendas de scooters elétricas de alta precisão e qualidade, feito sob medida para os clientes. O projeto foi desenvolvido utilizando Angular.
 
 ## Captura de Tela
 
 Aqui está uma captura de tela da página inicial do site:
 
-![Bikcraft Screenshot](./src/assets/img/fotos/image.png)
+![image](https://github.com/user-attachments/assets/7fadcf11-2522-4ec9-945c-773c04753a12)
+
 
 ## Funcionalidades
 
-- **Catálogo de Bicicletas:** Exibe uma lista de bicicletas elétricas disponíveis para compra, com detalhes sobre cada modelo.
-- **Página de Detalhes do Produto:** Informações detalhadas sobre cada bicicleta, incluindo especificações técnicas, preço e opções de compra.
+- **Catálogo de Scooters:** Exibe uma lista de scooters elétricas disponíveis para compra, com detalhes sobre cada modelo.
+- **Página de Detalhes do Produto:** Informações detalhadas sobre cada scooter, incluindo especificações técnicas, preço e opções de compra.
 - **Formulário de Contato:** Permite que os usuários entrem em contato com a empresa para dúvidas ou pedidos especiais.
 - **Modo Escuro:** Interface com suporte a modo escuro para uma melhor experiência do usuário.
 
