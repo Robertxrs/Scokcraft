@@ -1,0 +1,40 @@
+<main class="titulo-bg">
+  <div>
+    <div class="titulo container">
+      <p class="font-2-xl cor-5">R$ {{scooter.price}}</p>
+      <h1 class="font-1-xxl cor-0">{{scooter.title}}<span class="cor-p1">.</span></h1>
+    </div>
+  </div>
+  <div class="scooter container">
+    <div class="scooter-imagens">
+        <ng-container *ngFor="let img of scooter.images">
+          <img [src]="img" alt="Imagens de scooter">
+        </ng-container>
+   </div>
+
+    <div class="scooter-conteudo">
+      <p class="font-2-l cor-5">{{scooter.description}}</p>
+      <div class="scooter-comprar">
+        <a class="botao" routerLink="/budget">Comprar Agora</a>
+        <span class="font-1-xs cor-6"> <img [src]="scooter.iconStock">
+          entrega em {{scooter.deliver}} dias
+        </span>
+        <span class="font-1-xs cor-6">
+          <img [src]="scooter.iconDeliver">
+          {{scooter.stock}} em estoque
+        </span>
+      </div>
+
+      <h2 class="font-1-xs cor-0">{{scooter.titleInfo}}</h2>
+      <ul class="scooter-informacoes" >
+        <li *ngFor="let ic of scooter.info">
+          <img [src]="icons[ic.icon]" alt="Icones">
+          <h3 class="font-1-m cor-0">{{ic.title}}</h3>
+          <p class="font-2-xs cor-5">{{ic.description}}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+<app-scooters-list></app-scooters-list>
+<app-seguros-scooter></app-seguros-scooter>

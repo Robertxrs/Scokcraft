@@ -5,7 +5,7 @@ import { SegurosComponent } from './features/seguros/seguros.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { BudgetComponent } from './features/budget/budget.component';
-import { ScooterDetailsComponent } from './scooter-details/scooter-details.component';
+import { ScooterDetailsComponent } from './features/scooter-details/scooter-details.component';
 import { ScootersComponent } from './features/scooters/scooters.component';
 
 const routes: Routes = [

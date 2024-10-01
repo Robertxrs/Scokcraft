@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
+
 @Component({
   selector: 'app-scooter-details',
   templateUrl: './scooter-details.component.html',
@@ -9,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 export class ScooterDetailsComponent implements OnInit {
 
   id: string = '';
-  bike: any = null;
+  scooter: any = null;
 
   icons:any = {
     eletric: '../../../../assets/img/icones/eletrica.svg',
@@ -18,18 +19,17 @@ export class ScooterDetailsComponent implements OnInit {
     fiber: '../../../../assets/img/icones/carbono.svg',
 }
 
-  bikes: any = [
+scooters: any = [
     {
       id: '1',
       price: '6499',
       title: 'Magic Might',
       description: 'A Magic Might é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.',
       iconDeliver:'../../../../assets/img/icones/entrega.svg',
-      iconStock:'../../../../assets/img/icones/estoque.svg',
+      iconStock:'../../../assets/img/icones/estoque.svg',
       deliver: '5',
       stock: '19',
       titleInfo:'Informações',
-      titleTechnical:'Ficha Técnica',
       info: [
         {
           icon: 'eletric',
@@ -52,14 +52,6 @@ export class ScooterDetailsComponent implements OnInit {
           description: 'Maior proteção possível para a sua Scokcraft com fibra de carbono.',
         },
       ],
-      technicalSheet: {
-        weight: '9',
-        height: '60',
-        width: '120',
-        depth: '10',
-        marches: '16',
-        wheel: '25',
-      },
       images: [
         '../../../../assets/img/scooter/magic.jpg',
         '../../../../assets/img/scooter/nebula.jpg',
@@ -95,16 +87,7 @@ export class ScooterDetailsComponent implements OnInit {
           description: 'Maior proteção possível para a sua Scokcraft com fibra de carbono.',
         },
       ],
-      technicalSheet: {
-        weight: '8.5',
-        height: '65',
-        width: '110',
-        depth: '26',
-        marches: '12',
-        wheel: '26',
-      },
       images: [
-
         '../../../../assets/img/scooter/nebula.jpg',
         '../../../../assets/img/scooter/magic.jpg',
         '../../../../assets/img/scooter/nimbus.jpeg',
@@ -139,14 +122,6 @@ export class ScooterDetailsComponent implements OnInit {
           description: 'Maior proteção possível para a sua Scokcraft com fibra de carbono.',
         },
       ],
-      technicalSheet: {
-        weight: '7.5',
-        height: '60',
-        width: '90',
-        depth: '10',
-        marches: '18',
-        wheel: '26',
-      },
       images: [
         '../../../../assets/img/scooter/nimbus.jpeg',
         '../../../../assets/img/scooter/magic.jpg',
@@ -162,6 +137,6 @@ export class ScooterDetailsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.bike = this.bikes.find((el: any) => el.id === this.id);
+    this.scooter = this.scooters.find((el: any) => el.id === this.id);
   }
 }

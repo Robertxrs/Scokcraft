@@ -1,17 +1,25 @@
 import { Injectable } from '@angular/core';
 import { Scooter } from '../modules/scooter';
 import { HttpClient } from '@angular/common/http';
+import { tap } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ScootersService {
 
-  private readonly API = '../../../assets/scooter.json';
+  private apiUrl = 'http://localhost:8080/api/scooters';
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
-  list(){
-    return (this.httpClient.get<Scooter[]>(this.API));
+
+  getAllScooters(): Observable<Scooter[]> {
+    return this.http.get<Scooter[]>(this.apiUrl);
+  }
+
+
+  getScooterById(id: string): Observable<Scooter> {
+    return this.http.get<Scooter>(`${this.apiUrl}/${id}`);
   }
 }

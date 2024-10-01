@@ -20,7 +20,7 @@ import { StoreLocationComponent } from './components/store-location/store-locati
 import { ContactComponent } from './features/contact/contact.component';
 import { BudgetComponent } from './features/budget/budget.component';
 import { ScootersListComponent } from './components/scooters-list/scooters-list.component';
-import { ScooterDetailsComponent } from './scooter-details/scooter-details.component';
+import { ScooterDetailsComponent } from './features/scooter-details/scooter-details.component';
 import { SegurosScooterComponent } from './components/seguros-scooter/seguros-scooter.component';
 import { ScootersComponent } from './features/scooters/scooters.component';
 import { HttpClientModule } from '@angular/common/http';

@@ -100,22 +100,3 @@
     place-self: start;
   }
 }
-
-.scooters-bg {
-  background: linear-gradient(to right, var(--cor-0) 0%, var(--cor-11) 0%) !important;
-}
-.magic-might .font-2-m {
-  color: var(--cor-0);
-}
-
-.magic-might h2 {
-  color: var(--cor-0);
-}
-
-.magic-might p {
-  color: var(--cor-5);
-}
-
-.magic-might ul {
-  color: var(--cor-5);
-}

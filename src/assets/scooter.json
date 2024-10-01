@@ -1,38 +1,119 @@
 [
   {
-      "id": "1",
-      "name": "Magic Might",
-      "price": 6499,
-      "description": "A Magic Might é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
-      "details": [
-          "Motor Elétrico",
-          "120 km/h",
-          "Rastreador",
-          "Fibra de Carbono"
-      ]
+    "id": "1",
+    "name": "Magic Might",
+    "price": 6499,
+    "description": "A Magic Might é a melhor Scooter já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.",
+    "details": [
+      "Motor Elétrico",
+      "120 km/h",
+      "Rastreador",
+      "Fibra de Carbono"
+    ],
+    "imgSrc": "../../../assets/img/scooter/magic.jpg",
+    "altSrc": "Scooter amarela",
+    "path": "/scooter/1",
+    "button": "Mais Sobre",
+    "class": "scooters-bg magic-might",
+    "listIcons": [
+      {
+        "icon": "../../../assets/img/icones/eletrica.svg",
+        "alt": "Icone de Motor Elétrico",
+        "subtitle": "Motor Elétrico"
+      },
+      {
+        "icon": "../../../assets/img/icones/carbono.svg",
+        "alt": "Icone Fibra de Carbono",
+        "subtitle": "Fibra de Carbono"
+      },
+      {
+        "icon": "../../../assets/img/icones/velocidade.svg",
+        "alt": "Icone de velocidade",
+        "subtitle": "120 km/h"
+      },
+      {
+        "icon": "../../../assets/img/icones/rastreador.svg",
+        "alt": "Icone de Rastreador",
+        "subtitle": "Rastreador"
+      }
+    ]
   },
   {
-      "id": "2",
-      "name": "Nebula Cosmic",
-      "price": 7999,
-      "description": "A Nebula Cosmic é a scooter mais avançada com maior velocidade e durabilidade.",
-      "details": [
-          "Motor Elétrico",
-          "140 km/h",
-          "Rastreador",
-          "Fibra de Carbono"
-      ]
+    "id": "2",
+    "name": "Nebula Cosmic",
+    "price": 7999,
+    "description": "A Nebula Cosmic é a scooter mais avançada com maior velocidade e durabilidade.",
+    "details": [
+      "Motor Elétrico",
+      "140 km/h",
+      "Rastreador",
+      "Fibra de Carbono"
+    ],
+    "imgSrc": "../../../assets/img/scooter/nebula.jpg",
+    "altSrc": "Scooter preta",
+    "path": "/scooter/2",
+    "button": "Mais Sobre",
+    "class": "scooters-bg nebula-cosmic",
+    "listIcons": [
+      {
+        "icon": "../../../assets/img/icones/eletrica.svg",
+        "alt": "Icone de Motor Elétrico",
+        "subtitle": "Motor Elétrico"
+      },
+      {
+        "icon": "../../../assets/img/icones/carbono.svg",
+        "alt": "Icone Fibra de Carbono",
+        "subtitle": "Fibra de Carbono"
+      },
+      {
+        "icon": "../../../assets/img/icones/velocidade.svg",
+        "alt": "Icone de velocidade",
+        "subtitle": "140 km/h"
+      },
+      {
+        "icon": "../../../assets/img/icones/rastreador.svg",
+        "alt": "Icone de Rastreador",
+        "subtitle": "Rastreador"
+      }
+    ]
   },
   {
-      "id": "3",
-      "name": "Nimbus Stark",
-      "price": 4999,
-      "description": "A Nimbus Stark combina velocidade e robustez com tecnologia de ponta.",
-      "details": [
-          "Motor Elétrico",
-          "100 km/h",
-          "Rastreador",
-          "Fibra de Carbono"
-      ]
+    "id": "3",
+    "name": "Nimbus Stark",
+    "price": 4999,
+    "description": "A Nimbus Stark combina velocidade e robustez com tecnologia de ponta.",
+    "details": [
+      "Motor Elétrico",
+      "100 km/h",
+      "Rastreador",
+      "Fibra de Carbono"
+    ],
+    "imgSrc": "../../../assets/img/scooter/nimbus.jpeg",
+    "altSrc": "Scooter vermelha",
+    "path": "/scooter/3",
+    "button": "Mais Sobre",
+    "class": "scooters-bg nimbus-stark",
+    "listIcons": [
+      {
+        "icon": "../../../assets/img/icones/eletrica.svg",
+        "alt": "Icone de Motor Elétrico",
+        "subtitle": "Motor Elétrico"
+      },
+      {
+        "icon": "../../../assets/img/icones/carbono.svg",
+        "alt": "Icone Fibra de Carbono",
+        "subtitle": "Fibra de Carbono"
+      },
+      {
+        "icon": "../../../assets/img/icones/velocidade.svg",
+        "alt": "Icone de velocidade",
+        "subtitle": "100 km/h"
+      },
+      {
+        "icon": "../../../assets/img/icones/rastreador.svg",
+        "alt": "Icone de Rastreador",
+        "subtitle": "Rastreador"
+      }
+    ]
   }
 ]
