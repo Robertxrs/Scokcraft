@@ -24,6 +24,7 @@ import { ScooterDetailsComponent } from './features/scooter-details/scooter-deta
 import { SegurosScooterComponent } from './components/seguros-scooter/seguros-scooter.component';
 import { ScootersComponent } from './features/scooters/scooters.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './features/login/login.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { HttpClientModule } from '@angular/common/http';
     ScooterDetailsComponent,
     SegurosScooterComponent,
     ScootersComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

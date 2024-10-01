@@ -1,4 +1,6 @@
 import { Component, OnInit, ɵsetClassMetadata } from '@angular/core';
+import { Insurance } from 'src/app/core/modules/insurance';
+import { InsuranceService } from 'src/app/core/services/insurance.service';
 
 @Component({
   selector: 'app-insurance',
@@ -7,40 +9,14 @@ import { Component, OnInit, ɵsetClassMetadata } from '@angular/core';
 })
 export class InsuranceComponent implements OnInit {
 
-  insuranceList: any = [{
-      title: 'PRATA',
-      price: '199',
-      list: [
-        'Duas trocas por ano',
-        'Assistência técnica',
-        'Suporte 08h às 18h',
-        'Cobertura estadual'
-      ],
-      path: '/budget?tipo=seguro&produto=prata',
-      button: 'Inscreva-se',
-      class:'secundario'
-    },
-    {
-      title: 'OURO',
-      price: '299',
-      list: [
-        'Cinco trocas por ano',
-        'Assistência especial',
-        'Suporte 24h',
-        'Cobertura nacional',
-        'Desconto em parceiros',
-        'Acesso ao Clube Scokcraft'
-      ],
-      path: '/budget?tipo=seguro&produto=ouro',
-      button: 'Inscreva-se',
-      class: ''
-    },
-  ];
+  insurance: Insurance[] = [];
 
-
-  constructor() { }
+  constructor(private insuranceService: InsuranceService) { }
 
   ngOnInit(): void {
-  }
+    this.insuranceService.getAllInsurance().subscribe((data: Insurance[]) => {
+      this.insurance = data;
+     })
+    }
 
 }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { environment } from '../environments/environment';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,10 @@ import { environment } from '../environments/environment';
 export class AppComponent {
   title = 'Scokcraft';
 
-  constructor(){
+  constructor(private router:Router){}
+
+  showHeaderFooter(): boolean{
+    return this.router.url !== '/login';
   }
 
 }

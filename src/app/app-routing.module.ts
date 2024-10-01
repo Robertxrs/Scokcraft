@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { BudgetComponent } from './features/budget/budget.component';
 import { ScooterDetailsComponent } from './features/scooter-details/scooter-details.component';
 import { ScootersComponent } from './features/scooters/scooters.component';
+import { LoginComponent } from './features/login/login.component';
 
 const routes: Routes = [
   { path: 'scooter', component: ScootersComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'scooter/:id', component: ScooterDetailsComponent },
   { path: 'budget', component: BudgetComponent},
+  {path: 'login', component:LoginComponent},
   { path: '', component: HomeComponent },
 ];
 
