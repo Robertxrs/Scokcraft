@@ -229,7 +229,7 @@ img[src$=".jpg"] {
   --cor-p4: #664400;
   --cor-p5: #332200;
 
-
+}
 .cor-0 {
   color: var(--cor-0);
 }
@@ -284,7 +284,7 @@ img[src$=".jpg"] {
 .cor-p5 {
   color: var(--cor-p5);
 }
-}
+
 /* formulario */
 .form {
   display: grid;
