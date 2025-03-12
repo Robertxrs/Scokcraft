@@ -1,4 +1,4 @@
-# Bikcraft - Venda de Bicicletas Elétricas
+# Scokcraft - Venda de Scooters Elétricas
 
 ## Descrição
 
